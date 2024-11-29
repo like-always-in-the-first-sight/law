@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机端注册</title>
+    <link rel="stylesheet" href="/law/register.mobile.css">
+</head>
+
+<body>
+    <div class="register-box">
+        <div class="register">
+            <div class="register-header">欢迎注册</div>
+            <div class="register-content">
+                <input type="text" placeholder="用户名" id="account">
+                <input type="password" placeholder="密码" id="password">
+                <input type="text" placeholder="手机号" id="phoneNumber" maxlength="11">
+                <div class="code-box">
+                    <input type="text" placeholder="验证码" id="code">
+                    <button class="code-btn" id="getCodeBtn">获取验证码</button>
+                </div>
+                <div class="submit-box">
+                    <button class="register-btn" id="register">注册</button>
+                    <a href="login-mobile.html" class="already-btn" style="display: block;text-decoration: none;">已有账号，去登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/law/register.js"></script>
+</body>
+
+</html>

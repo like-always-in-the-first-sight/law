@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/law/pay-mobile.css">
+    <link rel="stylesheet" href="/law/footer-mobile.css">
+</head>
+
+<body>
+    <div class="pay-box">
+        <div class="theme-box">
+            <div class="theme-logo">识诈避风港</div>
+            <div class="theme-login">登录</div>
+        </div>
+        <div class="pay">
+            <div class="pay-title">
+                <text>订单支付</text>
+            </div>
+            <div class="pay-select">
+                <div class="pay-weixin">
+                    <input type="radio" name="pay" checked>
+                    <img src="/law/微信支付.png" alt="">
+                    <text>微信支付</text>
+                </div>
+                <div class="pay-zhifubao">
+                    <input type="radio" name="pay">
+                    <img src="/law/支付宝支付.png" alt="">
+                    <text>支付宝支付</text>
+                </div>
+            </div>
+            <div class="pay-btn" onclick="payNow()">立即支付</div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-item" data-page="law-mobile.html">援助</div>
+            <div class="footer-item" data-page="antiFraud-mobile.html">反诈</div>
+            <div class="footer-item" data-page="home-mobile.html">首页</div>
+            <div class="footer-item active" data-page="mall-mobile.html">商城</div>
+            <div class="footer-item" data-page="new-mobile.html">新闻</div>
+        </div>
+    </div>
+</body>
+<script>
+    // 立即支付的函数
+    function payNow() {
+        // 弹出支付成功的提示框
+        alert('支付成功！');
+
+        // 清除浏览器缓存中键名为 'cart' 的数据
+        localStorage.removeItem('cart');
+
+        // 跳转到首页
+        window.location.href = 'home-mobile.html'; // 跳转到首页
+    }
+</script>
+<script src="/law/theme.js"></script>
+</html>

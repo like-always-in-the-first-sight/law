@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="/law/home-mobile.css">
+    <link rel="stylesheet" href="/law/footer-mobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="home-box">
+        <div class="theme-box">
+            <div class="theme-logo">识诈避风港</div>
+            <div class="theme-login">登录</div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/law/swiper16.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper17.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper18.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper19.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper20.jpg" alt=""></div>
+            </div>
+
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="home-title" style="margin-top: 10px;width: 100vw;">
+            <text style="margin-left: 5vw;">反诈科普</text>
+        </div>
+        <div class="law-box">
+            <div class="law">
+                <div class="law-item1"><img src="/law/works5.jpg" alt=""></div>
+                <div class="law-item"><img src="/law/works6.jpg" alt=""></div>
+                <div class="law-item"><img src="/law/works7.jpg" alt=""></div>
+                <div class="law-item"><img src="/law/works8.jpg" alt=""></div>
+                <div class="law-item"><img src="/law/works9.jpg" alt=""></div>
+                <div class="law-item"><img src="/law/works10.jpg" alt=""></div>
+                <div class="law-item"><img src="/law/works11.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="Counterfraud-box">
+            <div class="home-title"><text>反诈宣传</text></div>
+            <div class="Counterfraud">
+                <div class="Counterfraud-left">
+                    <img src="/law/works14.jpg" alt="">
+                </div>
+                <div class="Counterfraud-right">
+                    <div class="Counterfraud-top">
+                        <img src="/law/works13.jpg" alt="">
+                    </div>
+                    <div class="Counterfraud-bottom">
+                        <img src="/law/works12.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="defraud-box">
+            <div class="home-title"><text>法治之光，照亮社会</text></div>
+            <div class="defraud">
+                <div class="defraud-top">
+                    每年的世界法律日，都是一个提醒我们珍视法治、弘扬法治精神的重要时刻。法治，作为现代社会的基石，不仅保障了公民的基本权利和自由，还维护了社会的稳定和公正。 这张海报以简洁而富有深意的设计，传达了世界法律日的核心理念。
+                </div>
+                <div class="defraud-bottom">
+                    <div class="defraud-left">
+                        <img src="/law/works15.jpg" alt="">
+                    </div>
+                    <div class="defraud-right">
+                        <img src="/law/works16.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-box">
+            <div class="home-title"><text>全民反诈骗</text></div>
+            <div class="video">
+                <video controls loop muted class="video-style">
+                    <source src="../video/反诈宣传视频.mp4" type="video/mp4">
+                    您的浏览器不支持 HTML 视频标签。
+                </video>
+            </div>
+            <div class="video-content">
+                在信息化高度发展的时代，诈骗手段日益翻新，涉及网络购物、刷单兼职、冒充客服等多种形式，每一次不经意的轻信都可能带来巨大的财产损失甚至心理创伤。全民反诈，不仅是个人的责任，更是家庭和社会的共同任务。
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-item" data-page="law-mobile.html">援助</div>
+            <div class="footer-item" data-page="antiFraud-mobile.html">反诈</div>
+            <div class="footer-item active" data-page="home-mobile.html">首页</div>
+            <div class="footer-item" data-page="mall-mobile.html">商城</div>
+            <div class="footer-item" data-page="new-mobile.html">新闻</div>
+        </div>
+        <div class="leg-box">
+            <span>免责申明</span>
+            <span>|</span>
+            <span>意见反馈及投诉</span>
+            <span>|</span>
+            <span>隐私权限</span>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+            // 设置轮播参数
+            loop: true, // 无限循环
+            pagination: {
+                el: '.swiper-pagination', // 分页器元素
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next', // 下一张按钮
+                prevEl: '.swiper-button-prev', // 上一张按钮
+            },
+            autoplay: {
+                delay: 3000, // 自动播放延迟时间
+                disableOnInteraction: false, // 用户操作后不禁用自动播放
+            },
+        });
+    });
+</script>
+<script src="/law/theme.js"></script>
+<script src="/law/footer-mobile.js"></script>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法律手机端</title>
+    <link rel="stylesheet" href="/law/law-mobile.css">
+    <link rel="stylesheet" href="/law/footer-mobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="law-box">
+        <div class="theme-box">
+            <div class="theme-logo">识诈避风港</div>
+            <div class="theme-login">登录</div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/law/swiper21.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper22.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper23.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper24.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper25.jpg" alt=""></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="body-box">
+            <div class="home-title"><text>法律援助科普</text></div>
+            <div class="body">
+                <div class="body-item">
+                    <img src="/law/works17.jpg" alt="">
+                    <div class="body-item-content">
+                        走进法律援助，感受正义的力量，提高公众法律意识。红色力量守护公平，让法律的光芒照亮每一个角落
+                    </div>
+                </div>
+                <div class="body-item">
+                    <img src="/law/works18.jpg" alt="">
+                    <div class="body-item-content">
+                        法律援助，让正义不再遥远。为弱势群体提供有力的法律支持。在这里，每一份努力都是为了让法律更加贴近人心
+                    </div>
+                </div>
+                <div class="body-item">
+                    <img src="/law/works19.jpg" alt="">
+                    <div class="body-item-content">
+                        法律援助，是法治社会的重要基石。秉承公正、公平、公开的原则，为需要帮助的人提供及时、有效的法律服务。
+                    </div>
+                </div>
+                <div class="body-item">
+                    <img src="/law/works20.jpg" alt="">
+                    <div class="body-item-content">
+                        法律援助，是弱势群体的守护神。用法律武器为您争取应有的权益。在这里，每一份努力都为了正义与公平
+                    </div>
+                </div>
+                <div class="body-item">
+                    <img src="/law/works21.jpg" alt="">
+                    <div class="body-item-content">
+                        法律援助，是法治社会的温暖阳光。关注每一个需要帮助的人，用法律的力量撑起一片天空。
+                    </div>
+                </div>
+                <div class="body-item">
+                    <img src="/law/works22.jpg" alt="">
+                    <div class="body-item-content">
+                        法律援助，是法治社会的坚实基石，让法律的光芒照亮每一个人的前行之路
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="popularization-box">
+            <div class="home-title" style="margin-bottom: 10px;"><text>法律援助</text></div>
+            <div class="popularization">
+                <div class="popularization-item"><img src="/law/works28.jpg" alt=""></div>
+                <div class="popularization-item"><img src="/law/works29.jpg" alt=""></div>
+                <div class="popularization-item"><img src="/law/works30.jpg" alt=""></div>
+                <div class="popularization-item"><img src="/law/works31.jpg" alt=""></div>
+                <div class="popularization-item"><img src="/law/works32.jpg" alt=""></div>
+                <div class="popularization-item"><img src="/law/works33.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-item active" data-page="law-mobile.html">援助</div>
+            <div class="footer-item" data-page="antiFraud-mobile.html">反诈</div>
+            <div class="footer-item" data-page="home-mobile.html">首页</div>
+            <div class="footer-item" data-page="mall-mobile.html">商城</div>
+            <div class="footer-item" data-page="new-mobile.html">新闻</div>
+        </div>
+        <div class="leg-box">
+            <span>免责申明</span>
+            <span>|</span>
+            <span>意见反馈及投诉</span>
+            <span>|</span>
+            <span>隐私权限</span>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+            // 设置轮播参数
+            loop: true, // 无限循环
+            pagination: {
+                el: '.swiper-pagination', // 分页器元素
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next', // 下一张按钮
+                prevEl: '.swiper-button-prev', // 上一张按钮
+            },
+            autoplay: {
+                delay: 3000, // 自动播放延迟时间
+                disableOnInteraction: false, // 用户操作后不禁用自动播放
+            },
+        });
+    });
+</script>
+<script src="/law/theme.js"></script>
+<script src="/law/footer-mobile.js"></script>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机端购物车</title>
+    <link rel="stylesheet" href="/law/cart-mobile.css">
+    <link rel="stylesheet" href="/law/footer-mobile.css">
+</head>
+
+<body>
+    <div class="cart-box">
+        <div class="theme-box">
+            <div class="theme-logo">识诈避风港</div>
+            <div class="theme-login">登录</div>
+        </div>
+        <div class="cart-title">
+            <div class="goods">商品</div>
+            <div class="title">名称</div>
+            <div class="price">单价</div>
+            <div class="number">数量</div>
+            <div class="total">小计</div>
+            <div class="operate">操作</div>
+        </div>
+        <div class="cart-container" id="cart-container">
+            <!-- 商品项会被渲染在这里 -->
+        </div>
+        <div class="pay-btn">
+            <div class="btn" onclick="goPay()">去支付</div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-item" data-page="law-mobile.html">援助</div>
+            <div class="footer-item" data-page="antiFraud-mobile.html">反诈</div>
+            <div class="footer-item" data-page="home-mobile.html">首页</div>
+            <div class="footer-item active" data-page="mall-mobile.html">商城</div>
+            <div class="footer-item" data-page="new-mobile.html">新闻</div>
+        </div>
+    </div>
+</body>
+<script src="/law/theme.js"></script>
+<script src="/law/goods-mobile.js"></script>
+<script src="/law/footer-mobile.js"></script>
+</html>

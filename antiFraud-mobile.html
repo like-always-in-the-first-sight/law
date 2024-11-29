@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>反诈手机端</title>
+    <link rel="stylesheet" href="/law/antiFraud-mobile.css">
+    <link rel="stylesheet" href="/law/footer-mobile.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="antiFraud-box">
+        <div class="theme-box">
+            <div class="theme-logo">识诈避风港</div>
+            <div class="theme-login">登录</div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/law/swiper26.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper27.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper28.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper29.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="/law/swiper30.jpg" alt=""></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="works-box">
+            <div class="works">
+                <div class="works-title">警惕诈骗，守护安全</div>
+                <div class="works-content">
+                    增强反诈意识，了解常见骗局，谨防个人信息
+                </div>
+                <div class="works-content">
+                    泄露，守护财产安全，让我们一起
+                </div>
+                <div class="works-content">
+                    造无诈骗的安全社会
+                </div>
+                <div class="works-photo">
+                    <img src="/law/works34.png" alt="">
+                    <img src="/law/works35.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="case-box">
+            <div class="case">
+                <div class="case-title">
+                    防范诈骗，从我做起
+                </div>
+                <div class="case-content">
+                    <div class="case-left">
+                        <img src="/law/works36.png" alt="">
+                    </div>
+                    <div class="case-right" style="padding-right: 5px;">
+                        电信诈骗、网络诈骗层出不穷，保护个人信息至关重要。提升防范意识，识别常见诈骗手段，拒绝陌生来电和可疑链接，维护自己的财产安全，共同构建反诈防线
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="case-box">
+            <div class="case">
+                <div class="case-title" style="text-align: right;padding-right: 10px;box-sizing: border-box;">
+                    谨防诈骗，保护财产
+                </div>
+                <div class="case-content">
+                    <div class="case-right" style="padding-left: 10px;">
+                        诈骗手段不断翻新，保持警觉，学会识别常见骗局。不要轻信陌生电话、信息或链接，保护个人信息，避免财产损失。防范诈骗，从每个人做起，共同打击犯罪行为，守护财富安全
+                    </div>
+                    <div class="case-left">
+                        <img src="/law/works37.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-box">
+            <div class="home-title"><text>反诈宣传视频</text></div>
+            <div class="video">
+                <video controls loop muted class="video-style">
+                    <source src="../video/反诈骗1.mp4" type="video/mp4">
+                    您的浏览器不支持 HTML 视频标签。
+                </video>
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="footer-item " data-page="law-mobile.html">援助</div>
+            <div class="footer-item active" data-page="antiFraud-mobile.html">反诈</div>
+            <div class="footer-item" data-page="home-mobile.html">首页</div>
+            <div class="footer-item" data-page="mall-mobile.html">商城</div>
+            <div class="footer-item" data-page="new-mobile.html">新闻</div>
+        </div>
+        <div class="leg-box">
+            <span>免责申明</span>
+            <span>|</span>
+            <span>意见反馈及投诉</span>
+            <span>|</span>
+            <span>隐私权限</span>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+            // 设置轮播参数
+            loop: true, // 无限循环
+            pagination: {
+                el: '.swiper-pagination', // 分页器元素
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next', // 下一张按钮
+                prevEl: '.swiper-button-prev', // 上一张按钮
+            },
+            autoplay: {
+                delay: 3000, // 自动播放延迟时间
+                disableOnInteraction: false, // 用户操作后不禁用自动播放
+            },
+        });
+    });
+</script>
+<script src="/law/theme.js"></script>
+<script src="/law/footer-mobile.js"></script>
+</html>

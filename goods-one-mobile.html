@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机商品详情</title>
+    <link rel="stylesheet" href="/law/goods-mobile.css">
+</head>
+
+<body>
+    <div class="goods-box">
+        <div class="theme-box">
+            <div class="theme-logo">识诈避风港</div>
+            <div class="theme-login">登录</div>
+        </div>
+        <div class="goods-img">
+            <img src="/law/goods1.jpg" alt="守护正义主题马克杯" id="goods-img">
+        </div>
+        <div class="goods-detail">
+            <div class="goods-price">
+                <span id="goods-price" class="goods-price">￥9.99</span>
+                <div class="goods-number">
+                    <div class="counter-container">
+                        <button class="button" onclick="decrement()">-</button>
+                        <div class="count" id="count">1</div>
+                        <button class="button" onclick="increment()">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="goods-title" id="goods-title">守护正义主题马克杯</div>
+            <div class="goods-introduce">
+                守护法律之光，点亮正义信念。马克杯采用优质陶瓷制作，印有卡通执法人物，极具收藏价值
+            </div>
+        </div>
+        <div class="goods-serve">
+            <div class="goods-delivery">配送 &nbsp; 现在下单，最快明天送达</div>
+            <div class="goods-expense">运费 &nbsp; 免运费</div>
+            <div class="goods-safeguard">服务 &nbsp; 七天无理由退换</div>
+        </div>
+        <div class="evaluate-box">
+            <div class="evaluate-item">
+                <div class="evaluate-title">
+                    网友A
+                </div>
+                <div class="evaluate-content">
+                    总体来说，这次购物体验很愉快，商品的质量和售后服务都令人满意。唯一的小缺点是某些细节部分，可以继续改进。非常适合推荐给需要的人，性价比非常高！如果是首次购买此类产品，建议参考其他买家的评论。以后有类似需求会再次光顾
+                </div>
+            </div>
+            <div class="evaluate-item">
+                <div class="evaluate-title">
+                    网友B
+                </div>
+                <div class="evaluate-content">
+                    总体来说，这次购物体验很愉快，商品的质量和售后服务都令人满意。唯一的小缺点是某些细节部分，可以继续改进。非常适合推荐给需要的人，性价比非常高！如果是首次购买此类产品，建议参考其他买家的评论。以后有类似需求会再次光顾
+                </div>
+            </div>
+            <div class="evaluate-item">
+                <div class="evaluate-title">
+                    网友C
+                </div>
+                <div class="evaluate-content">
+                    总体来说，这次购物体验很愉快，商品的质量和售后服务都令人满意。唯一的小缺点是某些细节部分，可以继续改进。非常适合推荐给需要的人，性价比非常高！如果是首次购买此类产品，建议参考其他买家的评论。以后有类似需求会再次光顾
+                </div>
+            </div>
+        </div>
+        <div class="goods-btn">
+            <div class="home" onclick="window.location.href = 'home-mobile.html';">首页</div>
+            <div class="cart" onclick="addToCart()">加入购物车</div>
+            <div class="buy" onclick="buyToCart()">立即购买</div>
+        </div>
+    </div>
+    <script src="/law/cart-mobile.js"></script>
+    <script src="/law/theme.js"></script>
+</body>
+
+</html>
